@@ -1,0 +1,19 @@
+table{
+    width: 30%;
+    border: 1px solid;
+    margin: auto;
+
+}
+body{
+    background-image: url(field-gd0b71cb68_1280.jpg);
+}
+
+td, th{
+  padding: 0.7em;
+  margin: 0;
+}
+button{
+    left: 43%;
+    position: absolute;
+    width: 200px;
+}
