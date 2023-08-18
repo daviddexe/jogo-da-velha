@@ -61,13 +61,13 @@ var Game = {
 			return field[0][2];
 		}
 		if(this.round === rows * cols){
-			return 'Nobody';
+			return 'Deu Velha';
 		}
 
 	},
 	render(){
 		var winner = this.isGameOver();
-		divElement.textContent = winner ? `Winner: ${winner}` : `Current Player: ${this.currentPlayer}`;
+		divElement.textContent = winner ? `Vencedor: ${winner}` : `Jogador a movimentar: ${this.currentPlayer}`;
 		
 		if(winner){
 			this.isFinished = true;

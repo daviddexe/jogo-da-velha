@@ -1,11 +1,17 @@
 table{
-    width: 30%;
+    width: 40%;
     border: 1px solid;
     margin: auto;
+    align-items: center;
+    margin-top: 15%;
+    font-size: 30px;
+    color: gold;
+    font-weight: bold;
+
 
 }
 body{
-    background-image: url(field-gd0b71cb68_1280.jpg);
+    background-image: url(night-photograph-2183637_1920.jpg);
 }
 
 td, th{
@@ -16,4 +22,16 @@ button{
     left: 43%;
     position: absolute;
     width: 200px;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 15px;
+    
+}
+body{
+    font-size: 40px;
+    color: gold;
+    text-align: center;
+    align-items: center;
+    
+    font-weight: 700;
 }
